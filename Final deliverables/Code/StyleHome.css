@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: linear-gradient(rgba(59, 30, 30, 0.75),rgba(12, 37, 20, 0.75)),url("biodiversity2.jpg");
+    background-size: 1600px 800px; 
+}
+header{
+    position:absolute;
+    background-color:#41A317 ;
+    width:100%;
+    height:10vh;
+}
+.logo{
+    position: absolute;
+    color: white;
+    margin-top: 20px;
+    margin-left:40px;
+}
+.login a{
+    position: absolute;
+    color: white;
+    margin-left: 90%;
+    padding-top:23px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.login i{
+    position: absolute;
+    color: #fff;
+    margin-top: 25px;
+    margin-left:88%;
+}
+.login a:hover{
+ color:#000;
+}
+.title h2{
+    position: absolute;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 20px;
+    color:#fff ;
+    font-family: serif;
+}
+.image{
+    position: absolute;
+    margin-top: 60px;
+    margin-left:0px;
+}
+.container span{
+    position:absolute;
+    margin-top:200px;
+    margin-left:110px;
+    color:#fff;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: bold;;
+}
+.container p{
+    position:absolute;
+    margin-top:280px;
+    margin-left:160px;
+    color:#fff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: bold;
+}
+button{
+    position:absolute;
+    margin-top:340px;
+    margin-left:180px;
+    color:white;
+    font-size:15px;
+    background:#41A317 ;
+    padding:15px;
+    border:none;
+    border-radius:5px;
+    box-shadow: 1px 0 1px 1px #000;
+    outline:none;
+}
+.popup{
+    width:400px;
+   
+    background: #7009ff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color:#fff;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+.open-popup{
+    visibility: visible;
+    top:50%;
+    transform: translate(-50%,-50%) scale(1);
+}

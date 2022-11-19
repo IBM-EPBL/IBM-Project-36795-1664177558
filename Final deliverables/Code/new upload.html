@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="new upload.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="drop.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <title>Digital Naturalist</title>
+</head>
+<body><header>
+    <div class="logo">
+        <img src="/static/image/logo1.png" alt="logo" height="50" width="50">
+    </div>
+    <div class="title">
+        <h2>Digital Naturalist</h2>
+    </div>
+    <div class="dropdown">
+        <a href="/">Home</a>
+        <a href="#">Contact us</a>
+        <a href="/">Logout</a>
+    </div>
+</header>
+    <div class="image">
+        <img src="/static/image/biodiversity3.jpeg" height="300" width="430">
+    </div>
+    <div class="container">
+        <p>Are you a nature lover or a bird watcher? There are millions of rare species in the nature. This application helps you in identifying the kind of species and gives you brief information about it. This application uses neural networks which can identify some of the rare bird and animal species.</p>
+        <span>Exciting!! isn't it?</span>
+        <div class="upload">
+           <input type="file" class="upload-box">
+            <form action = "/predict"  method="post" enctype="multipart/form-data">
+                <input type="file" value="upload"  name="image" id="image" accept=".png, .jpg, .jpeg">
+                
+    <!-- Google Font -->
+
+    <!-- <div class="container"> 
+      <input type="file" id="upload-button" multiple accept="image/*" />
+      <label for="upload-button"
+        ><i class="fa-solid fa-upload"></i>&nbsp; Choose Or Drop Photos
+      </label>
+      <div id="error"></div>
+      <div id="image-display"></div>
+    </div>-->
+    <!-- Script -->
+    <script src="drop.js"></script>
+            
+               <button type="submit">PREDICT<input type="text"></button>
+               
+           </form>
+             </div>
+    </div>
+</body>
+</html>
