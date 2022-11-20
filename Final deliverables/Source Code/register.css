@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url("newimage3.jpg");
+    background-size: 1400px 600px;  
+    background-repeat:no-repeat;
+}
+.c1{
+    height: 500px;
+    width:350px;
+    margin-top:30px;
+    margin-left:37%;
+    position:absolute;
+    box-shadow: 10px 10px 10px rgba(0.5, 0.5, 0.5, 0.5);
+}
+.c2{
+    text-align: center;
+}
+.title{
+    text-align: center;
+    color:white;
+}
+.mb-3 mt-3 p{
+    visibility:hidden;
+    position: absolute;
+}
+.mb-3 mt-3.error p{
+    visibility: visible;
+    color: red;
+}
+.mb-3 mt-3.success p{
+    visibility: visible;
+}
+p{
+    color: white;
+}
+.para{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+.ac{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+.ac a{
+    color:#fff;
+    text-decoration: none;
+}
+.ac a:hover{
+    text-decoration: underline;
+}
+label{
+    color:#fff;
+}
+.mb-3 mt-3 span{
+    color:#fff;
+}
